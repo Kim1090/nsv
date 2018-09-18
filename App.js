@@ -4,7 +4,7 @@ import { AppLoading, Asset, Font, Icon } from 'expo';
 // import AppNavigator from './navigation/AppNavigator';
 import { createStackNavigator } from 'react-navigation';
 
-import HomeScreen from './screens/HomeScreen'
+import HomeScreen from './screens/home/homeScene'
 
 const RootStack = createStackNavigator(
   {
